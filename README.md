@@ -14,7 +14,7 @@ We welcome contributions from the community! If you would like to contribute to 
 2. **Clone Your Fork**: Clone the forked repository to your local machine using the following command:
 
     ```bash
-    git clone https://github.com/NULLCommand-Restructuring/NULLImplementer.git
+    git clone https://github.com/NULLCommand1/NULLImplementer.git
     cd NULLImplementer
     ```
 
