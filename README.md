@@ -47,4 +47,4 @@ Thank you for your contributions! Together, we can make **NULL Implementer** eve
 
 ## Contact
 
-If you have any questions or feedback, please contact via email: nguyenhuutai.cv@gmail.com.
+If you have any questions or feedback, please contact via email: nullcommand1@gmail.com.
